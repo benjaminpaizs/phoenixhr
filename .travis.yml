@@ -1,0 +1,10 @@
+language: php
+git:
+  depth: 3
+branches:
+  only:
+    master
+install:
+  make install
+script:
+  make cc
