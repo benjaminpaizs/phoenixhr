@@ -8,3 +8,4 @@ install:
   make install
 script:
   make cc
+  make test
