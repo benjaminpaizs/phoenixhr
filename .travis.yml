@@ -7,5 +7,5 @@ branches:
 install:
   make install
 script:
-  make cc
-  make test
+  - make cc
+  - make test
